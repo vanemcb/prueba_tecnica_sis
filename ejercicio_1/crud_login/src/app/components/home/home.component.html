@@ -1,0 +1,32 @@
+<div class="container">
+    <p>LISTA DE EQUIPOS</p>
+
+    <button routerLink="/add" type="button" class="btn btn-dark">Nuevo usuario</button>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Email</th>
+                <th scope="col">Contraseña</th>
+                <th scope="col">Editar</th>
+                <th scope="col">Eliminar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of ListUsers">
+                <th>{{user.id}}</th>
+                <td>{{user.name}}</td>
+                <td>{{user.email}}</td>
+                <td>{{user.password}}</td>
+                <td>
+                    <button (click)="edit(user.id!)" type="button" class="btn btn-primary">Editar</button>
+                </td>
+                <td>
+                    <button (click)="delete(user.id!)" type="button" class="btn btn-danger">Eliminar</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
