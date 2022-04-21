@@ -7,7 +7,7 @@ git clone https://github.com/vanemcb/prueba_tecnica_sis.git
 ```
 **Paso 2:** configuración de la base de datos.
 
-La aplicación funciona con mysql, la conexión está configurada con el usuario: "root", contraseña: "root" y host: "localhost".
+La aplicación funciona con mysql, la conexión está configurada con el usuario: "root", contraseña: "root" y host: "localhost". Si se necesita cambiar esta configuración se puede hacer modificando el archivo */ejercicio_1/rest_api_login/src/database.js*
 
 Se debe ingresar a mysql para crear la base de datos y la tabla, todo esto se puede hacer utilizando las querys del archivo */ejercicio_1/rest_api_login/src/db.sql*
 
@@ -37,4 +37,12 @@ A continuación listo los endpoints :
 * PUT /api/update/id --> actualiza la información correspondiente al usuario del id ingresado.
 
 * DELETE /api/delete/id --> elimina el usuario correspondiente al id ingresado.
+
+## Video
+
+Video del funcionamiento de la aplicación web.
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/Fxdsynvdd3U/0.jpg)](http://www.youtube.com/watch?v=Fxdsynvdd3U "CRUD Video")
+
+
 
