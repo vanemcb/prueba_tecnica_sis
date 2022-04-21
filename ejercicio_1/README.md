@@ -25,3 +25,16 @@ ng serve --open
 ```
 Con esto instalamos todas las dependencias y abrimos la aplicación en el navegador.
 
+## API REST
+A continuación listo los endpoints :
+
+* GET /api/users --> devuelve una lista con todos los usuarios registrados.
+
+* GET /api/users/id --> devuelve un diccionario con la información correspondiente al usuario del id ingresado.
+
+* POST /api/add --> para agregar un nuevo usuario.
+
+* PUT /api/update/id --> actualiza la información correspondiente al usuario del id ingresado.
+
+* DELETE /api/delete/id --> elimina el usuario correspondiente al id ingresado.
+
