@@ -1,5 +1,5 @@
 ## Configuraciones
-A continuación se describen los pasos a seguir para ejecutar la aplicación:
+A continuación se describen los pasos a seguir para ejecutar la aplicación localmente:
 
 **Paso 1:** clonar el repositorio
 ```
